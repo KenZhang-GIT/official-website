@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google Analytics 4 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-G2KZBXXP33"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -12,152 +11,770 @@
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Repute Filtration | Advanced Industrial & Precision Filtration Solutions</title>
+    
+    <title>Repute Filtration | Industrial Filtration Solutions for Pharma, Food & Semiconductor</title>
+    <meta name="description" content="Repute Filtration provides precision industrial filtration solutions, filter housings, and cartridges for semiconductor, pharma, and food industries.">
+    <meta name="keywords" content="industrial filtration, filter housings, filter cartridges, pharmaceutical filtration, semiconductor filtration, precision filtration">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:title" content="Repute Filtration | Industrial Filtration Solutions">
+    <meta property="og:description" content="Engineering high-purity industrial filtration technology for semiconductor, pharmaceutical, and food & beverage processing.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://reputefiltration.com">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Repute Filtration",
+      "url": "https://reputefiltration.com",
+      "slogan": "A Tiny Droplet Creates a Better Life.",
+      "description": "Repute Filtration is a leading China-based manufacturer specializing in precision industrial filtration technology, filter housings, and membrane cartridges.",
+      "knowsAbout": ["Industrial Filtration", "Filter Housings", "Filter Cartridges", "Pharmaceutical Filtration", "Semiconductor Filtration"]
+    }
+    </script>
+
     <style>
         :root {
-            --bg-color: #0b0f19;
-            --card-bg: #111827;
-            --accent-color: #2563eb;
-            --text-main: #f9fafb;
-            --text-muted: #9ca3af;
-            --border-color: #1f2937;
+            --bg-paper: #e9e7e1;
+            --ink-black: #171817;
+            --text-muted: #777872;
+            --hairline: rgba(23, 24, 23, 0.2);
+            --hairline-strong: rgba(23, 24, 23, 0.4);
+            --placeholder-bg: #dcd9d1;
+            
+            --font-main: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+            --max-width: 1320px;
         }
-        * { margin: 0; padding: 0; box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
-        body { background-color: var(--bg-color); color: var(--text-main); line-height: 1.6; }
-        
-        header { display: flex; justify-content: space-between; align-items: center; padding: 20px 8%; border-bottom: 1px solid var(--border-color); background: rgba(11, 15, 25, 0.9); position: fixed; width: 100%; top: 0; z-index: 100; backdrop-filter: blur(10px); }
-        .logo { font-size: 1.4rem; font-weight: 700; letter-spacing: 1px; color: #fff; }
-        .logo span { color: var(--accent-color); }
-        nav a { color: var(--text-muted); text-decoration: none; margin-left: 25px; font-size: 0.9rem; transition: 0.3s; }
-        nav a:hover { color: #fff; }
-        
-        .hero { height: 90vh; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; padding: 0 8%; background: linear-gradient(135deg, rgba(11,15,25,0.95) 0%, rgba(17,24,39,0.85) 100%), url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat; margin-top: 60px; }
-        .hero h1 { font-size: 2.8rem; font-weight: 800; max-width: 850px; line-height: 1.2; margin-bottom: 20px; }
-        .hero p { font-size: 1.2rem; color: var(--text-muted); max-width: 650px; margin-bottom: 35px; }
-        .cta-btn { background: var(--accent-color); color: #fff; padding: 14px 32px; border-radius: 4px; text-decoration: none; font-weight: 600; font-size: 1rem; border: none; cursor: pointer; transition: 0.3s; }
-        .cta-btn:hover { background: #1d4ed8; }
-        
-        .section { padding: 80px 8%; }
-        .section-title { font-size: 2rem; font-weight: 700; margin-bottom: 30px; border-left: 4px solid var(--accent-color); padding-left: 15px; }
-        
-        .tab-buttons { display: flex; gap: 15px; margin-bottom: 30px; border-bottom: 1px solid var(--border-color); padding-bottom: 15px; flex-wrap: wrap; }
-        .tab-btn { background: transparent; color: var(--text-muted); border: none; font-size: 1rem; font-weight: 600; padding: 10px 20px; cursor: pointer; transition: 0.3s; border-radius: 4px; }
-        .tab-btn.active, .tab-btn:hover { background: var(--card-bg); color: #fff; border: 1px solid var(--border-color); }
-        
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
-        .card { background: var(--card-bg); border: 1px solid var(--border-color); padding: 25px; border-radius: 6px; transition: 0.3s; }
-        .card:hover { border-color: var(--accent-color); transform: translateY(-3px); }
-        .card .tag { font-size: 0.75rem; font-weight: 700; color: var(--accent-color); text-transform: uppercase; margin-bottom: 10px; display: block; }
-        .card h3 { font-size: 1.1rem; margin-bottom: 10px; color: #fff; }
-        .card p { color: var(--text-muted); font-size: 0.85rem; }
-        
-        .contact-form { max-width: 600px; display: flex; flex-direction: column; gap: 15px; }
-        .form-group input, .form-group textarea { width: 100%; padding: 12px; background: #1f2937; border: 1px solid var(--border-color); color: #fff; border-radius: 4px; font-size: 0.95rem; }
-        
-        footer { padding: 40px 8%; border-top: 1px solid var(--border-color); color: var(--text-muted); font-size: 0.85rem; text-align: center; }
+
+        /* Base Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            background-color: var(--bg-paper);
+            color: var(--ink-black);
+            font-family: var(--font-main);
+            -webkit-font-smoothing: antialiased;
+        }
+
+        body {
+            line-height: 1.6;
+            overflow-x: hidden;
+            border-top: 1px solid var(--hairline);
+        }
+
+        /* Typography Scaffolding */
+        h1, h2, h3, h4 {
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            line-height: 1.1;
+        }
+
+        .eyebrow {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            color: var(--text-muted);
+            font-weight: 600;
+            display: block;
+            margin-bottom: 1.5rem;
+        }
+
+        p {
+            color: var(--ink-black);
+            font-size: 1.05rem;
+            line-height: 1.7;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        /* Layout Structure */
+        .container {
+            width: 100%;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        section {
+            padding: 8rem 0;
+            border-bottom: 1px solid var(--hairline);
+        }
+
+        /* Motion & Reveal System */
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Header Navigation */
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background-color: rgba(233, 231, 225, 0.92);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            border-bottom: 1px solid var(--hairline);
+            padding: 1.25rem 0;
+        }
+
+        .header-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.1rem;
+            font-weight: 800;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        .nav-link {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            font-weight: 600;
+            padding: 0.6rem 1.2rem;
+            border: 1px solid var(--ink-black);
+            transition: all 0.3s ease;
+        }
+
+        .nav-link:hover {
+            background-color: var(--ink-black);
+            color: var(--bg-paper);
+        }
+
+        /* Section 00: Hero */
+        .hero-section {
+            padding: 10rem 0 6rem 0;
+            min-height: 85vh;
+            display: flex;
+            align-items: center;
+        }
+
+        .hero-title {
+            font-size: clamp(2.8rem, 7vw, 5.5rem);
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+            line-height: 0.95;
+            word-break: break-word;
+        }
+
+        .hero-slogan {
+            font-size: clamp(1.4rem, 2.5vw, 2.2rem);
+            font-style: italic;
+            font-weight: 300;
+            color: var(--text-muted);
+            margin-bottom: 2.5rem;
+            letter-spacing: -0.01em;
+        }
+
+        .hero-statement {
+            max-width: 680px;
+            font-size: 1.2rem;
+            margin-bottom: 3.5rem;
+            color: var(--ink-black);
+        }
+
+        .hero-cta-group {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 1.1rem 2.2rem;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            font-weight: 700;
+            border: 1px solid var(--ink-black);
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background-color: var(--ink-black);
+            color: var(--bg-paper);
+        }
+
+        .btn-primary:hover {
+            background-color: transparent;
+            color: var(--ink-black);
+        }
+
+        .btn-secondary {
+            background-color: transparent;
+            color: var(--ink-black);
+        }
+
+        .btn-secondary:hover {
+            background-color: var(--ink-black);
+            color: var(--bg-paper);
+        }
+
+        .btn-arrow {
+            transition: transform 0.3s ease;
+        }
+
+        .btn:hover .btn-arrow {
+            transform: translate(3px, -3px);
+        }
+
+        /* Section 01: About */
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 4rem;
+        }
+
+        @media (min-width: 900px) {
+            .about-grid {
+                grid-template-columns: 1.2fr 0.8fr;
+                gap: 6rem;
+            }
+        }
+
+        .about-text {
+            font-size: clamp(1.25rem, 2vw, 1.6rem);
+            line-height: 1.6;
+            font-weight: 400;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2.5rem;
+            border-top: 1px solid var(--hairline);
+            padding-top: 2.5rem;
+        }
+
+        .stat-number {
+            font-size: clamp(3rem, 5vw, 4.5rem);
+            font-weight: 800;
+            line-height: 1;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--text-muted);
+        }
+
+        /* Section 02: Product Portfolio */
+        .product-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+        }
+
+        @media (min-width: 640px) {
+            .product-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .product-grid {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+
+        .product-card {
+            border: 1px solid var(--hairline);
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: rgba(255, 255, 255, 0.1);
+            transition: border-color 0.3s ease;
+        }
+
+        .product-card:hover {
+            border-color: var(--ink-black);
+        }
+
+        .image-placeholder {
+            width: 100%;
+            aspect-ratio: 4/3;
+            background-color: var(--placeholder-bg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+            overflow: hidden;
+            position: relative;
+            border: 1px solid var(--hairline);
+        }
+
+        .placeholder-text {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--text-muted);
+            font-weight: 600;
+        }
+
+        .product-card-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .product-card:hover .product-card-img {
+            transform: scale(1.05);
+        }
+
+        .product-model {
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .product-desc {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            line-height: 1.5;
+        }
+
+        /* Section 03: Applications */
+        .app-list {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .app-item {
+            border-top: 1px solid var(--hairline);
+            padding: 2.5rem 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: padding-left 0.3s ease, background-color 0.3s ease;
+        }
+
+        .app-item:last-child {
+            border-bottom: 1px solid var(--hairline);
+        }
+
+        .app-item:hover {
+            padding-left: 1.5rem;
+        }
+
+        .app-title {
+            font-size: clamp(1.5rem, 3vw, 2.5rem);
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: -0.01em;
+        }
+
+        .app-arrow {
+            font-size: 2rem;
+            transition: transform 0.3s ease;
+        }
+
+        .app-item:hover .app-arrow {
+            transform: translate(5px, -5px);
+        }
+
+        /* Section 04: Why Us */
+        .why-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 3rem;
+        }
+
+        @media (min-width: 768px) {
+            .why-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        .why-card {
+            border-left: 1px solid var(--hairline-strong);
+            padding-left: 1.75rem;
+        }
+
+        .why-card h3 {
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 1rem;
+        }
+
+        .why-card p {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+        }
+
+        /* Section 05: FAQ Accordion */
+        .faq-list {
+            max-width: 900px;
+        }
+
+        details {
+            border-top: 1px solid var(--hairline);
+            padding: 2rem 0;
+            cursor: pointer;
+        }
+
+        details:last-child {
+            border-bottom: 1px solid var(--hairline);
+        }
+
+        summary {
+            font-size: 1.25rem;
+            font-weight: 700;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            user-select: none;
+        }
+
+        summary::-webkit-details-marker {
+            display: none;
+        }
+
+        summary::after {
+            content: "+";
+            font-size: 1.8rem;
+            font-weight: 300;
+            transition: transform 0.3s ease;
+        }
+
+        details[open] summary::after {
+            content: "−";
+        }
+
+        details p {
+            margin-top: 1.25rem;
+            color: var(--text-muted);
+            font-size: 1rem;
+            max-width: 750px;
+        }
+
+        /* Section 06: Contact & Footer */
+        .contact-section {
+            padding: 10rem 0 6rem 0;
+            border-bottom: none;
+        }
+
+        .contact-box {
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+            align-items: flex-start;
+        }
+
+        .contact-email {
+            font-size: clamp(1.8rem, 4vw, 3.5rem);
+            font-weight: 800;
+            text-decoration: underline;
+            text-underline-offset: 8px;
+            word-break: break-all;
+            transition: color 0.3s ease;
+        }
+
+        .contact-email:hover {
+            color: var(--text-muted);
+        }
+
+        footer {
+            border-top: 1px solid var(--hairline);
+            padding: 3rem 0;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        .footer-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+        }
     </style>
 </head>
 <body>
 
     <header>
-        <div class="logo">REPUTE <span>FILTRATION</span></div>
-        <nav>
-            <a href="#products">Products (36)</a>
-            <a href="#contact">Contact</a>
-        </nav>
+        <div class="container header-inner">
+            <a href="#" class="logo" aria-label="Repute Filtration Homepage">Repute Filtration</a>
+            <a href="#contact" class="nav-link">Get a Quote ↗</a>
+        </div>
     </header>
 
-    <section class="hero">
-        <h1>Engineering High-Purity Filtration & Containment Systems for Global Process Industries</h1>
-        <p>Advanced membrane elements, industrial housings, and automated closed-loop systems for pharmaceutical, biotech, and chemical processing.</p>
-        <a href="#contact" class="cta-btn">Request Technical Specs & Quote</a>
-    </section>
+    <main>
+        <section class="hero-section">
+            <div class="container">
+                <span class="eyebrow">Precision Industrial Filtration</span>
+                <h1 class="hero-title">Repute Filtration</h1>
+                <p class="hero-slogan">"A Tiny Droplet Creates a Better Life."</p>
+                <p class="hero-statement">
+                    Engineering advanced membrane elements, heavy-duty industrial filter housings, and automated filtration systems for critical process industries worldwide.
+                </p>
+                <div class="hero-cta-group">
+                    <a href="#products" class="btn btn-primary">
+                        View Products <span class="btn-arrow">↓</span>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        Contact Us <span class="btn-arrow">↗</span>
+                    </a>
+                </div>
+            </div>
+        </section>
 
-    <section class="section" id="products">
-        <h2 class="section-title">Product Portfolio</h2>
-        <div class="tab-buttons">
-            <button class="tab-btn active" onclick="filterProducts('all')">All Products (36)</button>
-            <button class="tab-btn" onclick="filterProducts('housing')">Filter Housings (14)</button>
-            <button class="tab-btn" onclick="filterProducts('cartridge')">Filter Cartridges (21)</button>
-            <button class="tab-btn" onclick="filterProducts('system')">Sampling & Systems (1)</button>
-        </div>
+        <section id="about">
+            <div class="container">
+                <span class="eyebrow">01 / About Us</span>
+                <div class="about-grid">
+                    <div class="reveal">
+                        <p class="about-text">
+                            Repute Filtration is a leading company in China that specializes in industrial filtration technology. With decades of experience, we have achieved consistent growth by leveraging our proven technological expertise and commitment to quality. Our products are widely utilized in sectors such as semiconductors, food and beverages, pharmaceuticals, and other advanced technologies.
+                        </p>
+                    </div>
+                    <div class="stats-grid reveal">
+                        <div>
+                            <div class="stat-number">20+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div>
+                            <div class="stat-number">4</div>
+                            <div class="stat-label">Core Industries</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        <div class="grid" id="product-grid">
-            <!-- Housings -->
-            <div class="card" data-cat="housing"><span class="tag">Housing</span><h3>Multi-Cartridge Liquid Filter Housing (RLMF)</h3><p>High-capacity liquid clarification for industrial & pharma processes.</p></div>
-            <div class="card" data-cat="housing"><span class="tag">Housing</span><h3>In-Line Liquid Filter Housing (RTCF)</h3><p>Compact in-line design for continuous pipeline filtration.</p></div>
-            <div class="card" data-cat="housing"><span class="tag">Housing</span><h3>Industrial Gas Filter Housing (RGSF)</h3><p>Sanitary & heavy-duty gas sterilization housings.</p></div>
-            <div class="card" data-cat="housing"><span class="tag">Housing</span><h3>Tank Vent Filter / Breather Housing</h3><p>Sterile air venting for storage tanks and bioreactors.</p></div>
-            <div class="card" data-cat="housing"><span class="tag">Housing</span><h3>High-Flow Liquid Filter Housing</h3><p>Designed for large volumetric flow rates and high dirt-holding.</p></div>
-            <div class="card" data-cat="housing"><span class="tag">Housing</span><h3>Single-Bag Filter Housing</h3><p>Economical liquid filtration for coarse and medium particle removal.</p></div>
-            <div class="card" data-cat="housing"><span class="tag">Housing</span><h3>Multi-Bag Filter Housing</h3><p>Multi-bag arrangement for high-volume liquid processing.</p></div>
-            <div class="card" data-cat="housing"><span class="tag">Housing</span><h3>Custom Filter Press System</h3><p>Tailored dewatering and solid-liquid separation equipment.</p></div>
-            <div class="card" data-cat="housing"><span class="tag">Housing</span><h3>Lenticular Stacked Disc Housing</h3><p>Enclosed depth filtration system for wine, pharma, and biotech.</p></div>
-            <div class="card" data-cat="housing"><span class="tag">Housing</span><h3>Reversible Titanium Rod Filter Housing</h3><p>Decarbonization and liquid polish for parenteral solutions.</p></div>
-            <div class="card" data-cat="housing"><span class="tag">Housing</span><h3>Precision Stacked Disc Filter</h3><p>High-precision disc stack filtration assembly.</p></div>
-            <div class="card" data-cat="housing"><span class="tag">Housing</span><h3>Basket Strainer Housing</h3><p>Coarse straining to protect downstream pumps and valves.</p></div>
-            <div class="card" data-cat="housing"><span class="tag">Housing</span><h3>Automatic Microporous Precision Filter System</h3><p>Automated self-cleaning microporous filtration unit.</p></div>
-            <div class="card" data-cat="housing"><span class="tag">Housing</span><h3>Automated Candle Filter System (RCF)</h3><p>Fully enclosed tubular filter with automatic gas-backwash cake discharge.</p></div>
+        <section id="products">
+            <div class="container">
+                <span class="eyebrow">02 / Product Portfolio</span>
+                <div class="product-grid">
+                    
+                    <article class="product-card reveal">
+                        <div class="image-placeholder">
+                            <span class="placeholder-text">RLMF Housing Photo</span>
+                        </div>
+                        <div>
+                            <h3 class="product-model">RLMF Series</h3>
+                            <p class="product-desc">Multi-cartridge liquid filter housing for large volumetric processing.</p>
+                        </div>
+                    </article>
 
-            <!-- Cartridges -->
-            <div class="card" data-cat="cartridge"><span class="tag">Cartridge</span><h3>Pleated Polypropylene (PP) Cartridge</h3><p>All-polypropylene construction for general liquid clarification.</p></div>
-            <div class="card" data-cat="cartridge"><span class="tag">Cartridge</span><h3>PES Pleated Membrane Cartridge (RFPS)</h3><p>Asymmetric PES membrane for sterile filtration in bio-pharma.</p></div>
-            <div class="card" data-cat="cartridge"><span class="tag">Cartridge</span><h3>Hydrophobic PTFE Pleated Cartridge (RFPT)</h3><p>Sterile venting and gas filtration with hydrophobic PTFE.</p></div>
-            <div class="card" data-cat="cartridge"><span class="tag">Cartridge</span><h3>Hydrophilic PTFE Pleated Cartridge (RFHPT)</h3><p>Aggressive chemical and solvent precision liquid filtration.</p></div>
-            <div class="card" data-cat="cartridge"><span class="tag">Cartridge</span><h3>Hydrophobic PVDF Pleated Cartridge (RFPV)</h3><p>Low protein binding membrane for bioprocess fluids.</p></div>
-            <div class="card" data-cat="cartridge"><span class="tag">Cartridge</span><h3>Nylon 66 Pleated Membrane Cartridge (RFPN)</h3><p>Naturally hydrophilic nylon membrane for beverage & electronics.</p></div>
-            <div class="card" data-cat="cartridge"><span class="tag">Cartridge</span><h3>Polyester (PET) Pleated Filter Cartridge (RFPET)</h3><p>High thermal stability pleated filter element.</p></div>
-            <div class="card" data-cat="cartridge"><span class="tag">Cartridge</span><h3>Stainless Steel Sintered / Mesh Cartridge</h3><p>High temperature and pressure corrosion-resistant metal filter.</p></div>
-            <div class="card" data-cat="cartridge"><span class="tag">Cartridge</span><h3>Microfiltration Flat Sheet Membrane (RFM)</h3><p>Precision microfiltration membrane flat sheets for OEM testing.</p></div>
-            <div class="card" data-cat="cartridge"><span class="tag">Cartridge</span><h3>PFA High-Purity Pleated Cartridge (RFPFA)</h3><p>Ultra-pure fluoropolymer construction for semiconductor chemicals.</p></div>
-            <div class="card" data-cat="cartridge"><span class="tag">Cartridge</span><h3>Activated Carbon Fiber (ACF) Cartridge (RFACF)</h3><p>Organic adsorption and decolorization filter elements.</p></div>
-            <div class="card" data-cat="cartridge"><span class="tag">Cartridge</span><h3>Sintered Titanium Powder Cartridge (RFTi)</h3><p>High mechanical strength porous titanium metal filter.</p></div>
-            <div class="card" data-cat="cartridge"><span class="tag">Cartridge</span><h3>String Wound Depth Cartridge</h3><p>Economical depth filtration element for pre-filtration.</p></div>
-            <div class="card" data-cat="cartridge"><span class="tag">Cartridge</span><h3>PP Melt-Blown Depth Cartridge (RFPP)</h3><p>Graded density melt-blown polypropylene filter element.</p></div>
-            <div class="card" data-cat="cartridge"><span class="tag">Cartridge</span><h3>High-Flow Pleated Filter Cartridge (RFDLP)</h3><p>Large diameter pleated element for high volumetric flow.</p></div>
-            <div class="card" data-cat="cartridge"><span class="tag">Cartridge</span><h3>Sintered PTFE Filter Element (RFSFPT)</h3><p>Porous sintered PTFE for harsh chemical environments.</p></div>
-            <div class="card" data-cat="cartridge"><span class="tag">Cartridge</span><h3>Fiberglass Pleated Filter Cartridge (RFGF)</h3><p>High dirt holding and heat resistant glass fiber element.</p></div>
-            <div class="card" data-cat="cartridge"><span class="tag">Cartridge</span><h3>Disposable Capsule Filter Assembly (RFNS)</h3><p>Ready-to-use self-contained capsule filters for lab/pilot scale.</p></div>
-            <div class="card" data-cat="cartridge"><span class="tag">Cartridge</span><h3>Sintered PA/PE Porous Filter Element</h3><p>Porous plastic sintered filter elements.</p></div>
-            <div class="card" data-cat="cartridge"><span class="tag">Cartridge</span><h3>Filter Press Cloth & Centrifuge Filter Bag</h3><p>Woven filter media for industrial solid-liquid separation.</p></div>
-            <div class="card" data-cat="cartridge"><span class="tag">Cartridge</span><h3>Liquid Filter Bag (RFLD)</h3><p>Standard size 1-4 liquid filter bags in PP, PE, and Nylon.</p></div>
+                    <article class="product-card reveal">
+                        <div class="image-placeholder">
+                            <span class="placeholder-text">RTCF Housing Photo</span>
+                        </div>
+                        <div>
+                            <h3 class="product-model">RTCF Series</h3>
+                            <p class="product-desc">In-line liquid filter housing optimized for high-pressure fluid lines.</p>
+                        </div>
+                    </article>
 
-            <!-- Systems -->
-            <div class="card" data-cat="system"><span class="tag">System</span><h3>Automated Closed-Loop Sampling System</h3><p>Zero-emission, closed-loop liquid and gas sampling hardware for hazardous process lines.</p></div>
-        </div>
-    </section>
+                    <article class="product-card reveal">
+                        <div class="image-placeholder">
+                            <span class="placeholder-text">RGSF Housing Photo</span>
+                        </div>
+                        <div>
+                            <h3 class="product-model">RGSF Series</h3>
+                            <p class="product-desc">Sanitary industrial gas filter housing for compressed air and vent applications.</p>
+                        </div>
+                    </article>
 
-    <section class="section" id="contact">
-        <h2 class="section-title">Inquire for Technical Specifications</h2>
-        <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-            <div class="form-group"><input type="text" name="name" placeholder="Full Name" required></div>
-            <div class="form-group"><input type="email" name="email" placeholder="Business Email" required></div>
-            <div class="form-group"><input type="text" name="company" placeholder="Company Name / Country" required></div>
-            <div class="form-group"><textarea name="message" rows="5" placeholder="Tell us about your process conditions or product required..." required></textarea></div>
-            <button type="submit" class="cta-btn">Send Inquiry</button>
-        </form>
-    </section>
+                    <article class="product-card reveal">
+                        <div class="image-placeholder">
+                            <span class="placeholder-text">RFPS Cartridge Photo</span>
+                        </div>
+                        <div>
+                            <h3 class="product-model">RFPS Cartridge</h3>
+                            <p class="product-desc">Polyethersulfone (PES) membrane cartridge for bio-pharma sterile filtration.</p>
+                        </div>
+                    </article>
+
+                    <article class="product-card reveal">
+                        <div class="image-placeholder">
+                            <span class="placeholder-text">RFPT Cartridge Photo</span>
+                        </div>
+                        <div>
+                            <h3 class="product-model">RFPT Cartridge</h3>
+                            <p class="product-desc">Hydrophobic PTFE pleated membrane for gas sterilization and tank venting.</p>
+                        </div>
+                    </article>
+
+                    <article class="product-card reveal">
+                        <div class="image-placeholder">
+                            <span class="placeholder-text">RFPFA Cartridge Photo</span>
+                        </div>
+                        <div>
+                            <h3 class="product-model">RFPFA Cartridge</h3>
+                            <p class="product-desc">All-fluoropolymer PFA pleated cartridge for ultra-pure semiconductor chemicals.</p>
+                        </div>
+                    </article>
+
+                    <article class="product-card reveal">
+                        <div class="image-placeholder">
+                            <span class="placeholder-text">RCF System Photo</span>
+                        </div>
+                        <div>
+                            <h3 class="product-model">RCF Candle Filter</h3>
+                            <p class="product-desc">Fully automated enclosed candle filter system with automatic blowback discharge.</p>
+                        </div>
+                    </article>
+
+                    <article class="product-card reveal">
+                        <div class="image-placeholder">
+                            <span class="placeholder-text">Sampling System Photo</span>
+                        </div>
+                        <div>
+                            <h3 class="product-model">Closed-Loop Sampler</h3>
+                            <p class="product-desc">Zero-emission automated closed-loop sampling system for hazardous process liquids.</p>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="applications">
+            <div class="container">
+                <span class="eyebrow">03 / Applications</span>
+                <div class="app-list">
+                    <div class="app-item reveal">
+                        <h3 class="app-title">Semiconductor</h3>
+                        <span class="app-arrow">↗</span>
+                    </div>
+                    <div class="app-item reveal">
+                        <h3 class="app-title">Pharmaceutical</h3>
+                        <span class="app-arrow">↗</span>
+                    </div>
+                    <div class="app-item reveal">
+                        <h3 class="app-title">Food & Beverage</h3>
+                        <span class="app-arrow">↗</span>
+                    </div>
+                    <div class="app-item reveal">
+                        <h3 class="app-title">Chemical Processing</h3>
+                        <span class="app-arrow">↗</span>
+                    </div>
+                    <div class="app-item reveal">
+                        <h3 class="app-title">Water Treatment</h3>
+                        <span class="app-arrow">↗</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="why-us">
+            <div class="container">
+                <span class="eyebrow">04 / Why Us</span>
+                <div class="why-grid">
+                    <div class="why-card reveal">
+                        <h3>Quality Commitment</h3>
+                        <p>Strict ISO-certified production standards ensure full traceability, bubble-point integrity testing, and chemical compatibility for every batch.</p>
+                    </div>
+                    <div class="why-card reveal">
+                        <h3>Custom Capability</h3>
+                        <p>Tailored engineering solutions—from custom housing dimensions and specialized ASME pressure ratings to proprietary filter membrane selections.</p>
+                    </div>
+                    <div class="why-card reveal">
+                        <h3>Global Technical Service</h3>
+                        <p>End-to-end technical support including fluid analysis, cartridge lifecycle optimization, and rapid global supply chain execution.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq">
+            <div class="container">
+                <span class="eyebrow">05 / Frequently Asked Questions</span>
+                <div class="faq-list reveal">
+                    <details>
+                        <summary>What industries do Repute Filtration products serve?</summary>
+                        <p>Our solutions are primarily designed for high-purity and heavy industrial sectors, including semiconductor fabrication, pharmaceutical processing, food and beverage clarification, chemical synthesis, and industrial water treatment.</p>
+                    </details>
+                    <details>
+                        <summary>Do you offer customized filter housings and OEM solutions?</summary>
+                        <p>Yes. We provide complete design, engineering, and manufacturing services for non-standard pressure vessels, high-flow housing configurations, and custom OEM cartridge media tailored to specific process conditions.</p>
+                    </details>
+                    <details>
+                        <summary>How do you ensure the quality of your filter cartridges?</summary>
+                        <p>All cleanroom-manufactured cartridges undergo rigorous integrity testing, non-fiber-releasing checks, and end-of-line quality validation to comply with global GMP and ISO criteria.</p>
+                    </details>
+                    <details>
+                        <summary>What is the typical lead time for international orders?</summary>
+                        <p>Standard filter cartridges and stocked housings typically ship within 1 to 2 weeks. Custom-engineered pressure vessels and automated filtration systems range from 4 to 8 weeks depending on engineering requirements.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <span class="eyebrow">06 / Contact & Inquiries</span>
+                <div class="contact-box reveal">
+                    <p style="font-size: 1.25rem;">Ready to optimize your process filtration system? Contact our engineering team for technical specs, validation documentation, or pricing.</p>
+                    <a href="mailto:info@reputefiltration.com" class="contact-email">info@reputefiltration.com</a>
+                    <div>
+                        <a href="mailto:info@reputefiltration.com" class="btn btn-primary">
+                            Request Specification Sheet <span class="btn-arrow">↗</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <footer>
-        <p>© 2026 Repute Filtration Tech Ltd. All Rights Reserved.</p>
+        <div class="container footer-inner">
+            <div>© 2026 Repute Filtration Tech Ltd. All Rights Reserved.</div>
+            <div>Industrial Filtration Solutions · China</div>
+        </div>
     </footer>
 
     <script>
-        function filterProducts(category) {
-            const cards = document.querySelectorAll('.card');
-            const buttons = document.querySelectorAll('.tab-btn');
-            
-            buttons.forEach(btn => btn.classList.remove('active'));
-            event.target.classList.add('active');
+        document.addEventListener('DOMContentLoaded', () => {
+            const reveals = document.querySelectorAll('.reveal');
 
-            cards.forEach(card => {
-                if (category === 'all' || card.getAttribute('data-cat') === category) {
-                    card.style.display = 'block';
-                } else {
-                    card.style.display = 'none';
-                }
-            });
-        }
+            const revealOnScroll = () => {
+                const windowHeight = window.innerHeight;
+                const elementVisible = 100;
+
+                reveals.forEach(reveal => {
+                    const elementTop = reveal.getBoundingClientRect().top;
+                    if (elementTop < windowHeight - elementVisible) {
+                        reveal.classList.add('active');
+                    }
+                });
+            };
+
+            window.addEventListener('scroll', revealOnScroll);
+            revealOnScroll(); // Trigger initial check
+        });
     </script>
 </body>
 </html>
